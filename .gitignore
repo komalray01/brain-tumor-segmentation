@@ -1,0 +1,22 @@
+# Data (large medical imaging files, not yours to redistribute)
+data/
+cache/
+
+# Model checkpoints (large binary files)
+checkpoints/
+*.ckpt
+
+# Generated outputs (regenerate by running test_brats.py / render_interactive_3d.py)
+outputs/*.nii.gz
+outputs/*.html
+*.nii.gz
+interactive_tumor_3d.html
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# OS
+.DS_Store
